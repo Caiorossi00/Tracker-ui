@@ -1,0 +1,35 @@
+.container-geral {
+  display: flex;
+  flex-direction: column;
+}
+
+.recentes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+  margin-top: 10%;
+  height: fit-content;
+}
+
+.itens {
+  display: flex;
+  gap: 0.8em;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.itens p {
+  font-size: 18px;
+}
+
+.delete-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

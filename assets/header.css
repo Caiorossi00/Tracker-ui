@@ -1,0 +1,50 @@
+header {
+  background: radial-gradient(circle at 0 0, #beafda, #7e4582);
+  border-radius: 0 0 8% 8%;
+  margin-top: 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 400px;
+  align-items: center;
+}
+
+.welcome-text {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-left: -20%;
+}
+
+.welcome-text p {
+  font-size: 24px;
+}
+
+.fa-sun {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+.saldo p {
+  margin: 0;
+  color: #bebdbd;
+}
+
+.saldo h1 {
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+.add-item button {
+  background: radial-gradient(circle at 0 0, #beafda, #7e4582);
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 2.2em;
+  cursor: pointer;
+  width: 300px;
+}
